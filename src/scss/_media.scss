@@ -1,0 +1,248 @@
+
+@media (max-width: 0001px) {
+    
+}
+
+@media (max-width: 1335px) {
+    
+    .logo {
+        width: 190px;
+    }
+    .header__top-form {
+        width: 400px;
+    }
+    .header__top-wrapper {
+        width: 550px;
+    }
+    
+    .header__bottom {
+        justify-content: flex-start;
+    }
+    .header__bottom-links {
+        li:last-child {
+            display: none;
+        }
+    }
+    .header__bottom-basket {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        width: 158px;
+    }
+    .header__top-form {
+        width: 360px;
+    }
+    .header__top-wrapper {
+        width: 550px;
+    }
+    .header__bottom-links {
+        li:nth-child(5) {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1135px) {
+    .header__top-wrapper {
+        width: auto;
+        justify-content: right;
+    }
+    .header__top-form {
+        width: 390px;
+    }
+    
+    .header__top {
+        .map__link {
+            font-size: 0;
+        }
+        .call__phone {
+            margin: 0 10px;
+        }
+    }
+    
+    .header__bottom-links {
+        li:nth-child(4) {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1035px) {
+    .header__top {
+        .call__phone {
+            font-size: 0;
+        }
+    }
+    
+    .header__bottom-links a {
+        padding: 14px 10px;    
+    }
+}
+
+@media (max-width: 870px) {
+    .header__top {
+        .call__phone {
+            margin: 0 5px 0 10px;
+        }
+        .login__links {
+            font-size: 0;
+            width: 24px;
+            height: 24px;
+        }
+        .login__links-mobile {
+            pointer-events: all;
+        }
+    }
+    
+    
+    .header__top-form {
+        width: 100%;
+        margin: 0 10px;
+    }
+    .logo {
+        img {
+            max-width: 108px;
+            
+        }
+    }
+    .header__bottom-btn {
+        padding: 12px 12px 12px 35px;
+        &::after {
+            left: 8px;
+        }
+    }
+    .header__bottom-basket {
+        padding: 12px 30px 12px 40px;
+        
+        &::after {
+            left: 5px;
+        }
+        .basket__link-num {
+            right: 5px;
+        }
+    }
+    
+}
+
+@media (max-width: 790px) {
+    .header__top {
+        padding: 20px 0;
+        .login__links {
+            font-size: 16px;
+            width: auto;
+            height: auto;
+        }
+        .login__links-mobile {
+            pointer-events: none;
+        }
+    }
+    .header__bottom-links {
+        display: none;
+    }
+    .header__top-form {
+        display: none;
+    }
+    .header__bottom-form {
+        display: block;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .header__bottom-btn {
+        min-width: 175px;
+    }
+    
+}
+
+@media (max-width: 680px) {
+    .header__inner-btn__menu {
+        display: block;
+        margin-right: 20px;
+    }
+    .logo {
+        margin-right: auto;
+    }
+    .header__bottom-basket {
+        display: none;
+    }
+    .header__top-basket {
+        display: block;
+        font-size: 0;
+        padding: 0px;
+        width: 45px;
+        height: 23px;
+        margin-right: 10px;
+        background-color: transparent;
+        .basket__link-num {
+            top: 1px;
+            right: -12px;
+            z-index: 2;
+        }
+    }
+    .header__top{
+        .call__phone {
+            display: none;
+        }
+        .map__link {
+            padding: 0;
+            margin-right: 4px;
+        }
+    }
+    
+    
+    .header__top-form {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .header__bottom-btn {
+        min-width: auto;
+        padding: 20px;
+        font-size: 0;
+        margin-right: 10px;
+        &::after {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .header__top-search {
+        padding: 11px 40px 11px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lang {
+        padding-left: 45px;
+    }
+    .header__inner-btn__menu {
+        display: block;
+        margin-right: 10px;
+    }
+    
+    .header__top {
+        .call__phone {
+            margin: 0 0px 0 5px;
+        }
+        .login__links {
+            font-size: 0;
+            width: 24px;
+            height: 24px;
+        }
+        .login__links-mobile {
+            pointer-events: all;
+        }
+    }
+    
+    
+}
+
+
+
+
+
+
+
