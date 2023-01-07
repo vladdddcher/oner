@@ -351,9 +351,6 @@ body {
     
     
     &__categoty {
-        // display: none;
-        position: static;
-        pointer-events: none;
         background-color: rgba(27, 29, 31, .6);
         top: 0;
         bottom: 0;
@@ -361,8 +358,12 @@ body {
         right: 0;
         z-index: 16;
         opacity: 0;
+        transition: linear .3s;
+        padding: 20px;
+        position: fixed;
     }
     &__categoty-inner {
+        transition: linear .3s;
         transform: translateY(-150%);
         background-color: $white;
         padding: 20px;
@@ -406,6 +407,7 @@ body {
     display: flex;
     z-index: 17;
     background-color: $btnsBgColorHover;
+    pointer-events: none;
     &:hover {
         background-color: #410F9E;
     }
@@ -417,23 +419,13 @@ body {
 }
 
 .header__categoty--active {
-    transition: linear .2s;
+    cursor: pointer;
     opacity: 1;
-    position: fixed;
-    pointer-events: all;
     .header__categoty-inner {
-        transition: linear .2s;
-        transform: translateY(0%);
-        
+        cursor: auto;
+        transform: translateY(0%);    
     }
 }
-
-
-
-
-
-
-
 
 
 
