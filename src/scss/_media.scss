@@ -242,8 +242,9 @@
         padding: 30px 0 20px;
     }
     .footer__inner-list {
-        max-height: 0px;
+        max-height: 0;
         overflow: hidden;
+        transition: linear .5s;
     }
     .footer__inner-item:last-child {
         margin-top: 10px;
@@ -266,6 +267,7 @@
     }
     .footer__inner-title {
         cursor: pointer;
+        pointer-events: all;
         &::after {
             display: block;
         }

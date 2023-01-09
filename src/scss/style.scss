@@ -460,6 +460,7 @@ body {
         font-weight: 500;
         margin-bottom: 20px;
         position: relative;
+        pointer-events: none;
         &::after {
             display: none;
             position: absolute;
@@ -597,9 +598,13 @@ body {
             }
         }
     }
-    
+    .footer__inner-list--active {
+        max-height: 100vh;
+        overflow: visible;
+        // height: 100%;
+        margin-bottom: 20px;
+    }    
 }
-
 
 
 
