@@ -128,7 +128,12 @@
         margin-left: 15px;
     }
     
-    // footer ===---
+    // intro ===---
+    
+    .intro__slider-item {
+        min-height: 350px;
+        max-height: 350px;
+    }
 }
 
 @media (max-width: 870px) {
@@ -185,6 +190,9 @@
         padding: 7px 4px 7px 4px;
     }
     
+    // intro ===---
+
+    
     // footer ===---
     .footer__inner-bottom {
         flex-direction: column;
@@ -235,6 +243,9 @@
     .header__categoty-banner {
         display: none;
     }
+    
+    // intro ---===
+
     
     // footer ===---
     .footer__inner-top {
@@ -352,7 +363,8 @@
         text-align: center;
     }
     
-    // footer ===---
+    // intro ===---
+
 }
 
 @media (max-width: 480px) {
@@ -380,9 +392,9 @@
         }
     }
     
-    // footer ===---
+    // intro ===---
     
-    
+
 }
 
 
